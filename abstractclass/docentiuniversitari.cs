@@ -31,7 +31,9 @@ public abstract class Professore: Docente
         {
 
         }
-        public  void Bonus()
+        public  void Bonus()//Override del metodo Bonus della classe Professore
+        //Una classe concreta deve implementare tutti i metodi astratti delle classi astratte da cui eredita
+        //ma in questo caso il metodo Bonus non è astratto, quindi non è obbligatorio implementarlo
         {
 
         }
